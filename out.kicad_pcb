@@ -20313,6 +20313,36 @@
 		(layer "F.SilkS")
 		(uuid "fdb955ee-4be8-4417-b020-11f23ccf4a16")
 	)
+	(gr_line
+		(start 55.88 90.17)
+		(end 55.88 92.71)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "65f727b6-b012-448b-adbd-ede1a251bbb4")
+	)
+	(gr_line
+		(start 53.34 91.44)
+		(end 55.88 90.17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7f215b01-df35-45f2-868f-665d63a086cf")
+	)
+	(gr_line
+		(start 55.88 92.71)
+		(end 53.34 91.44)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "c1a52ea3-5733-4416-b327-52c9ae0b90b6")
+	)
 	(gr_rect
 		(start 41 39.25)
 		(end 69 149.25)
@@ -28166,6 +28196,37 @@
 				(xy 58.306213 42.669707) (xy 58.30621 42.669711) (xy 58.218609 42.800814) (xy 58.218602 42.800827)
 				(xy 58.158264 42.946498) (xy 58.158261 42.94651) (xy 58.1275 43.101153) (xy 41 43.101153) (xy 41 39.424)
 				(xy 41.019685 39.356961) (xy 41.072489 39.311206) (xy 41.124 39.3) (xy 45.136116 39.3)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.SilkS")
+		(uuid "b846ec42-6ec8-44b0-b1c0-dc1e63ef9ae5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 53.34 91.44) (xy 55.88 90.17) (xy 55.88 92.71)
+			)
+		)
+		(filled_polygon
+			(layer "B.SilkS")
+			(island)
+			(pts
+				(xy 55.83385 90.27412) (xy 55.873672 90.33153) (xy 55.88 90.370636) (xy 55.88 92.509364) (xy 55.860315 92.576403)
+				(xy 55.807511 92.622158) (xy 55.738353 92.632102) (xy 55.700546 92.620273) (xy 53.561818 91.550909)
+				(xy 53.510659 91.503322) (xy 53.493349 91.43563) (xy 53.515384 91.369326) (xy 53.561818 91.329091)
+				(xy 55.700546 90.259727) (xy 55.769311 90.247352)
 			)
 		)
 	)
