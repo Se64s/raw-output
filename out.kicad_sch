@@ -3720,6 +3720,72 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 27.94 218.44)
+		(end 55.88 257.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 213649ad-c1f0-4690-83c4-b94305b8bc8d)
+	)
+	(rectangle
+		(start 187.96 226.06)
+		(end 243.84 274.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9951feea-49b6-4741-bc39-85594de03529)
+	)
+	(rectangle
+		(start 208.28 86.36)
+		(end 226.06 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b7a9969f-4061-442c-ab89-e3ffb3980bec)
+	)
+	(text "remove BAT"
+		(exclude_from_sim no)
+		(at 216.916 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79f1e3c8-ec0e-4177-ae24-a2371ed70836")
+	)
+	(text "Signal in wrong terminal"
+		(exclude_from_sim no)
+		(at 41.656 244.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5909070-57e8-4eb1-9e34-679af31afa5a")
+	)
+	(text "inverted inputs"
+		(exclude_from_sim no)
+		(at 221.742 266.446 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4a7f336-57c0-4df4-8166-2dba49f2dc16")
+	)
 	(junction
 		(at 215.9 254)
 		(diameter 0)
